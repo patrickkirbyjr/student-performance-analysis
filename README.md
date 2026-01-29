@@ -18,7 +18,7 @@ The dataset consists of anonymized final average grades extracted from the schoo
 | `student_id` | Unique anonymized identifier for each student | `int` |
 | `school_year` | Academic year ending (e.g., 2023, 2024, 2025) | `int` |
 | `subject` | Course code (Focus: `PSC` - Physical Science C) | `string` |
-| `class_period` | Time slot of the class (1-9) | `int` |
+| `class_period` | Time slot of the class (1-8) | `int` |
 | `number_in_class` | Total count of students in that specific section | `int` |
 | `final_grade` | The student's final average for the course (0-100) | `int` |
 
